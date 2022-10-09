@@ -28,3 +28,18 @@ function countUpFromTime(countFrom, id) {
     clearTimeout(countUpFromTime.interval);
     countUpFromTime.interval = setTimeout(function () { countUpFromTime(countFrom, id); }, 1000);
 }
+
+
+// <div class="countup" id="countup1">
+//     <span>J'ai actuellement </span>
+//     <span class="annees">00</span>
+//     <span class="timeRefYears">ans,</span>
+//     <span class="jours">00</span>
+//     <span class="timeRefDays">jours,</span>
+//     <span class="heures">00</span>
+//     <span class="timeRefHours">heures,</span>
+//     <span class="minutes">00</span>
+//     <span class="timeRefMinutes">minutes,</span>
+//     <span class="secondes">00</span>
+//     <span class="timeRefSeconds">secondes,</span>
+// </div>
