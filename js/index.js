@@ -1,12 +1,8 @@
-import * as React from 'react';
-import ReactDOM from 'react-dom/client';
-import { StyledEngineProvider } from '@mui/material/styles';
-import Demo from './demo';
+//NAV BAR
 
-ReactDOM.createRoot(document.querySelector("#root")).render(
-    <React.StrictMode>
-        <StyledEngineProvider injectFirst>
-            <Demo />
-        </StyledEngineProvider>
-    </React.StrictMode>
-);
+const menuHamburger = document.querySelector(".menu-hamburger")
+const navLinks = document.querySelector(".nav-links")
+
+menuHamburger.addEventListener('click', () => {
+    navLinks.classList.toggle('mobile-menu')
+})
