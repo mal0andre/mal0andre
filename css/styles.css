@@ -47,7 +47,7 @@ Navbar
     text-decoration: none;
     list-style: none;
     position: fixed;
-    padding: 50px;
+    padding: 20px;
     align-items: center;
     display: flex;
     justify-content: space-between;
