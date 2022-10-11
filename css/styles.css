@@ -182,10 +182,10 @@ main div.premier {
 }
 
 main div.premier img {
-    height: auto;
+    height: 120px;
     max-height: 100px;
     min-height: 50px;
-    width: auto;
+    width: 120px;
     max-width: 100px;
     min-width: 100px;
     border-radius: 50%;
@@ -265,17 +265,17 @@ main div.troisieme .block .container3 {
 
 main div.troisieme .block .container1 img {
     max-width: 250px;
-    height: 50%;
+    width: 50%;
 }
 
 main div.troisieme .block .container2 img {
     max-width: 250px;
-    height: 50%;
+    width: 50%;
 }
 
 main div.troisieme .block .container3 img {
     max-width: 250px;
-    height: 50%;
+    width: 50%;
 }
 
 @media screen and (max-width: 500px) {
