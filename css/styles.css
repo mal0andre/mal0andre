@@ -46,7 +46,7 @@ Navbar
 .navbar {
     text-decoration: none;
     list-style: none;
-    position: absolute;
+    position: fixed;
     padding: 50px;
     align-items: center;
     display: flex;
@@ -108,7 +108,7 @@ Navbar
         top: 0;
         left: 0;
         position: absolute;
-        background-color: rgba(255, 255, 255, 0.35);
+        background-color: rgba(0, 0, 0, 0.35);
         -webkit-backdrop-filter: blur(5px);
         backdrop-filter: blur(5px);
         width: 100%;
@@ -232,66 +232,17 @@ main div.troisieme h2 {
 }
 
 main div.troisieme .block {
-    background: linear-gradient(-45deg, #ffffff, #eeeeee, #dddddd, #cccccc, #bbbbbb, #aaaaaa, #999999, #888888, #777777, #666666, #555555, #444444, #333333, #222222, #111111);
-    background-size: 200% 200%;
-
     display: flex;
     flex-flow: row wrap;
     align-content: center;
     justify-content: center;
     max-width: 950px;
-
-    -webkit-animation: Animation 15s ease infinite;
-    -moz-animation: Animation 15s ease infinite;
-    animation: Animation 15s ease infinite;
-}
-
-@-webkit-keyframes Animation {
-    0% {
-        background-position: 10% 0%
-    }
-
-    50% {
-        background-position: 91% 100%
-    }
-
-    100% {
-        background-position: 10% 0%
-    }
-}
-
-@-moz-keyframes Animation {
-    0% {
-        background-position: 10% 0%
-    }
-
-    50% {
-        background-position: 91% 100%
-    }
-
-    100% {
-        background-position: 10% 0%
-    }
-}
-
-@keyframes Animation {
-    0% {
-        background-position: 10% 0%
-    }
-
-    50% {
-        background-position: 91% 100%
-    }
-
-    100% {
-        background-position: 10% 0%
-    }
 }
 
 main div.troisieme .block .container1 {
     margin: 20px;
     padding: 10px;
-    background-color: #ffffff;
+    background-color: #ff4040;
     text-align: center;
     width: 250px;
 }
@@ -299,7 +250,7 @@ main div.troisieme .block .container1 {
 main div.troisieme .block .container2 {
     margin: 20px;
     padding: 10px;
-    background-color: #ffffff;
+    background-color: #8cff40;
     text-align: center;
     width: 250px;
 }
@@ -307,7 +258,7 @@ main div.troisieme .block .container2 {
 main div.troisieme .block .container3 {
     margin: 20px;
     padding: 10px;
-    background-color: #ffffff;
+    background-color: rgba(85, 85, 85, 0.5);
     text-align: center;
     width: 250px;
 }
@@ -331,7 +282,6 @@ main div.troisieme .block .container3 img {
     main div.troisieme .block .container1 {
         margin: 20px;
         padding: 10px;
-        background-color: #ffffff;
         text-align: center;
         width: 80%;
     }
@@ -339,7 +289,6 @@ main div.troisieme .block .container3 img {
     main div.troisieme .block .container2 {
         margin: 20px;
         padding: 10px;
-        background-color: #ffffff;
         text-align: center;
         width: 80%;
     }
@@ -347,7 +296,6 @@ main div.troisieme .block .container3 img {
     main div.troisieme .block .container3 {
         margin: 20px;
         padding: 10px;
-        background-color: #ffffff;
         text-align: center;
         width: 80%;
     }
