@@ -46,8 +46,8 @@ Navbar
 .navbar {
     text-decoration: none;
     list-style: none;
-    position: fixed;
-    padding: 20px;
+    position: absolute;
+    padding: 50px;
     align-items: center;
     display: flex;
     justify-content: space-between;
@@ -209,6 +209,10 @@ main div.deuxieme {
     background-color: white;
     font-size: large;
     padding: 50px 100px 50px 100px;
+}
+
+main div.deuxieme p {
+    font-size: 25px;    
 }
 
 main div h1 {
