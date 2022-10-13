@@ -212,7 +212,7 @@ main div.deuxieme {
 }
 
 main div.deuxieme p {
-    font-size: 25px;    
+    font-size: 25px;
 }
 
 main div h1 {
@@ -311,6 +311,26 @@ Timeline
 ======================
 */
 
+main div.quatrieme {
+    background-color: rgb(185, 149, 149);
+    margin: 50px;
+}
+
+main div.quatrieme h3 {
+    font-size: 50px;
+}
+
+main div.quatrieme .container {}
+
+main div.quatrieme .gauche {
+    width: 40%;
+    background-color: greenyellow;
+}
+
+main div.quatrieme .droite {
+    width: 40%;
+    background-color: greenyellow;
+}
 
 /*
 ======================
