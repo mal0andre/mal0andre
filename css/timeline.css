@@ -90,9 +90,6 @@
     left: -60px;
 }
 
-.ligne-1 section .icon svg,
-.ligne-2 section .icon svg {}
-
 .ligne section .details,
 .ligne section .bottom {
     display: flex;
