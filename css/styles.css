@@ -218,6 +218,78 @@ main div.premier svg:hover {
     transform: scale(1.5);
 }
 
+main div.premier div.scroll {
+    padding-top: 100px;
+}
+
+main div.premier div.scroll .arrows {
+    width: 60px;
+    height: 80px;
+    position: absolute;
+    left: 50%;
+    margin-left: -30px;
+    bottom: 20px;
+}
+
+main div.premier div.scroll .arrows path {
+    stroke: #ffffff;
+    fill: transparent;
+    stroke-width: 5px;
+    animation: arrow 2s infinite;
+    -webkit-animation: arrow 2s infinite;
+}
+
+@keyframes arrow {
+    0% {
+        opacity: 0
+    }
+
+    40% {
+        opacity: 1
+    }
+
+    80% {
+        opacity: 0
+    }
+
+    100% {
+        opacity: 0
+    }
+}
+
+@-webkit-keyframes arrow {
+    0% {
+        opacity: 0
+    }
+
+    40% {
+        opacity: 1
+    }
+
+    80% {
+        opacity: 0
+    }
+
+    100% {
+        opacity: 0
+    }
+}
+
+main div.premier div.scroll .arrows path.a1 {
+    animation-delay: -1s;
+    -webkit-animation-delay: -1s;
+}
+
+main div.premier div.scroll .arrows path.a2 {
+    animation-delay: -0.5s;
+    -webkit-animation-delay: -0.5s;
+}
+
+main div.premier div.scroll .arrows path.a3 {
+    animation-delay: 0s;
+    -webkit-animation-delay: 0s;
+}
+
 main div.deuxieme {
     background-color: white;
     font-size: large;
