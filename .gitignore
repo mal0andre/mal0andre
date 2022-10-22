@@ -1,2 +1,3 @@
 *.txt
 *.hintrc
+.vscode/settings.json
