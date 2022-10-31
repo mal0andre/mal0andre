@@ -291,6 +291,17 @@ main div.premier div.scroll .arrows path.a3 {
     animation-delay: 0s;
 }
 
+main iframe.iframe_discord {
+    position: absolute;
+    display: none;
+}
+
+main iframe.iframe_discord_visible {
+    display: flex;
+    position: fixed;
+    z-index: 1;
+}
+
 main div.deuxieme {
     background-color: white;
     font-size: large;
@@ -313,7 +324,7 @@ main div h1 {
 }
 
 .portfolio-title {
-    margin: 100px 0;
+    padding: 100px 0;
     text-align: center;
 }
 
