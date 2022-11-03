@@ -1,14 +1,10 @@
-:root {
-    --multicolor: linear-gradient(-45deg, #ee5252, #ee7752, #eede52, #aaee52, #3ce73f, #23d5a8, #23b7d5, #52b0ee, #5c52ee, #a352ee, #ee52e1, #ee5267);
-}
-
 body::-webkit-scrollbar {
     width: 12px;
     /* width of the entire scrollbar */
 }
 
 body::-webkit-scrollbar-track {
-    background: linear-gradient(-45deg, #ee5252, #ee7752, #eede52, #aaee52, #3ce73f, #23d5a8, #23b7d5, #52b0ee, #5c52ee, #a352ee, #ee52e1, #ee5267);
+    background: white;
     animation: gradient 15s ease infinite;
     /* color of the tracking area */
 }
@@ -18,6 +14,6 @@ body::-webkit-scrollbar-thumb {
     /* color of the scroll thumb */
     border-radius: 20px;
     /* roundness of the scroll thumb */
-    border: 3px solid white;
+    border: 3px solid black;
     /* creates padding around scroll thumb */
 }
