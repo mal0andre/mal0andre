@@ -1,5 +1,5 @@
 :root {
-    --multicolor: linear-gradient(-45deg, #ee5252, #ee7752, #eede52, #aaee52, #3ce73f, #23d5a8, #23b7d5, #52b0ee, #5c52ee, #a352ee, #ee52e1, #ee5267);
+    --multicolor: linear-gradient(-45deg, #ee5252, #ee5252, #ee7752, #eede52, #aaee52, #3ce73f, #23d5a8, #23b7d5, #52b0ee, #5c52ee, #a352ee, #ee52e1, #ee5267, #ee5267);
 }
 
 .timeline-block {
