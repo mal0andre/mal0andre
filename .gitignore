@@ -1,3 +1,7 @@
 *.txt
 *.hintrc
 .vscode/settings.json
+.idea/maloandre.fr.iml
+.idea/modules.xml
+.idea/vcs.xml
+.idea/workspace.xml
