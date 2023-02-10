@@ -162,13 +162,14 @@ Footer
 */
 
 footer {
-    padding: 0;
+    padding: 10px 0;
     margin: 0;
     box-sizing: border-box;
     width: 100%;
     display: flex;
     align-items: center;
-    height: 64px;
+    text-align: center;
+    min-height: 100px;
     background-color: rgba(7, 39, 43, 1);
     color: #ffffff;
     justify-content: center;
@@ -189,11 +190,11 @@ main div.premier {
 }
 
 main div.premier img {
-    height: 120px;
-    max-height: 100px;
+    height: 180px;
+    max-height: 300px;
     min-height: 50px;
-    width: 120px;
-    max-width: 100px;
+    width: 180px;
+    max-width: 300px;
     min-width: 100px;
     border-radius: 50%;
     padding: 10px;
@@ -291,17 +292,6 @@ main div.premier div.scroll .arrows path.a3 {
     animation-delay: 0s;
 }
 
-main iframe.iframe_discord {
-    position: absolute;
-    display: none;
-}
-
-main iframe.iframe_discord_visible {
-    display: flex;
-    position: fixed;
-    z-index: 1;
-}
-
 main div.deuxieme {
     background-color: white;
     font-size: large;
@@ -309,7 +299,7 @@ main div.deuxieme {
 }
 
 main div.deuxieme p {
-    font-size: 25px;
+    font-size: 20px;
 }
 
 @media screen and (max-width: 500px) {
@@ -329,7 +319,7 @@ main div h1 {
 }
 
 main div.troisieme {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.5);
     padding: 0 10px 100px 10px;
     text-align: -webkit-center;
 }
@@ -350,7 +340,7 @@ main div.troisieme .block {
 main div.troisieme .block .container1 {
     margin: 20px;
     padding: 10px;
-    background-color: #ff4040;
+    background-color: #27f5ef;
     text-align: center;
     width: 250px;
 }
@@ -358,7 +348,7 @@ main div.troisieme .block .container1 {
 main div.troisieme .block .container2 {
     margin: 20px;
     padding: 10px;
-    background-color: #8cff40;
+    background-color: #3df0de;
     text-align: center;
     width: 250px;
 }
@@ -450,6 +440,34 @@ main div.quatrieme .droite {
     background-color: greenyellow;
 }
 
+
+/*
+======================
+Mentions Légales
+======================
+*/
+
+main section.mentions-legales-un {
+    margin: 10vh 25px 22.5vh 25px;
+    border-radius: 2vw;
+    background-color: rgba(0, 0, 0, 0.65);
+    padding-left: 10vw;
+    backdrop-filter: blur(4px);
+}
+
+main section.mentions-legales-un div.mentions-legales-droite p.mentions-legales-infos {
+    font-weight: 700;
+    letter-spacing: 0.4em;
+    text-transform: uppercase;
+    color: rgb(0, 255, 179) !important;
+    padding: 20px 0;
+}
+
+main section.mentions-legales-un div.mentions-legales-droite p.mentions-legales-desc {
+    font-weight: bold;
+    color: gray;
+    padding: 20px;
+}
 
 /*
 ======================
