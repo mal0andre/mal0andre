@@ -42,11 +42,11 @@
 
 <body>
     <h1 class="WHAT">Pourquoi tu essaies de trifouiller mon code ?</h1>
-    <nav class="navbar">
+    <nav id="navbar" class="navbar">
         <a href="#" class="logo">Malo ANDRÉ</a>
         <div class="nav-links">
             <ul>
-                <li class="active"><a title="Menu" href="./">Accueil</a></li>
+                <li class=""><a title="Menu" href="#">Accueil</a></li>
                 <li><a title="Menu" href="#apropos">A propos de moi</a></li>
                 <li><a title="Menu" href="#portfolio">Portfolio</a></li>
                 <li><a title="Menu" href="#timeline">Timeline</a></li>
@@ -104,7 +104,7 @@
                         </path>
                     </svg></a>
 
-                <div class="scroll">
+                <div class="scroll" onclick="scrollClick()">
                     <svg class="arrows">
                         <path class="a1" d="M0 0 L30 32 L60 0"></path>
                         <path class="a2" d="M0 20 L30 52 L60 20"></path>
@@ -121,9 +121,8 @@
                 Salut, Hey, Hallo !
             </h1>
             <p>
-                Je suis Malo André, franco-suisse <img style="width: 20px;"
-                    src="https://th.bing.com/th/id/R.4340a956f8dbbc1572f867ba5cc6c89a?rik=YL2%2bmJWWTQdIZA&riu=http%3a%2f%2fwww.drapeaux-du-monde.fr%2fdrapeaux-du-monde%2f3000%2fdrapeau-france.jpg&ehk=2tzJ7WlbJTX3yIiUdXQMxRPDLzzm7KDIPmmJxZQMrmI%3d&risl=&pid=ImgRaw&r=0">
-                <img style="width: 20px;" src="https://immobicbm.files.wordpress.com/2021/04/drapeau-ch.jpg">.<br>J'aime
+                Je suis Malo André, franco-suisse <img alt="france" class="drapeau" src="./images/france.png">
+                <img alt="suisse" src="./images/suisse.png">.<br>J'aime
                 programmer et je m'intéresse principalement à
                 cyber-sécurité.<br>
                 J'aime faire du sport, de la course à pied 🏃‍♂️, du parapente 🪂, du ski ⛷️, etc.<br>J'aime voyager ✈️,
@@ -165,10 +164,10 @@
         </div>
         <div id="timeline" class="timeline-block">
             <div class="center-line">
-                <!-- <svg href="*" class="scroll-icon" viewBox="0 0 384 512">
+                <svg href="*" class="scroll-icon" viewBox="0 0 384 512">
                     <path
                         d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z" />
-                </svg> -->
+                </svg>
             </div>
             <div class="ligne ligne-1">
                 <section>
