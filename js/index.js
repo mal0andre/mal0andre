@@ -22,6 +22,7 @@ function scrollNavbar() {
 }
 
 function scrollClick() {
-    // let pageHeight = window.innerHeight;
-    window.scrollTo(0, 804);
+    let pageHeight = window.innerHeight;
+    let position = pageHeight - 10 - 64;
+    window.scrollTo(0, position);
 }
