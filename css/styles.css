@@ -103,6 +103,7 @@ Navbar
 @media screen and (max-width: 900px) {
     .navbar {
         padding: 0;
+        height: auto;
     }
 
     .navbar .logo {
@@ -308,7 +309,7 @@ main div.deuxieme p {
     font-size: 20px;
 }
 
-main div.deuxieme p img {
+main div.deuxieme p img.drapeau {
     width: 20px;
 }
 
