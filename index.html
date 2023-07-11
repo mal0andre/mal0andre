@@ -24,7 +24,11 @@
 <html lang="fr">
 
 <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8">
+    <meta name="description"
+        content="Je me présente, je m'appelle Malo ANDRE, et voici ma page internet de présentation.">
+    <meta name="keywords" content="CV portfolio présentation">
+    <meta name="author" content="Malo ANDRE">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -41,28 +45,24 @@
 
 
 <body>
-    <h1 class="WHAT">Pourquoi tu essaies de trifouiller mon code ?</h1>
-    <nav id="navbar" class="navbar">
-        <a href="#" class="logo">Malo ANDRÉ</a>
-        <div class="nav-links">
-            <ul>
-                <li class=""><a title="Menu" href="#">Accueil</a></li>
-                <li><a title="Menu" href="#apropos">A propos de moi</a></li>
-                <li><a title="Menu" href="#portfolio">Portfolio</a></li>
-                <li><a title="Menu" href="#timeline">Timeline</a></li>
-                <!-- <li><a title="Menu" href="#">Cinq</a></li> -->
-                <!-- <li><a title="Menu" href="/CV">CV</a></li> -->
-            </ul>
-        </div>
-        <img title="Bouton Hamburger" class="menu-hamburger" src="./images/menu-btn.png">
-    </nav>
-
     <main>
         <div class="premier">
             <div class="">
                 <img src="./images/malo.jpg" alt="Malo">
                 <h2 id="accueil">Malo ANDRÉ</h2>
                 <h3>Étudiant</h3>
+                <div class="countup" id="countup1">
+                    <span class="annees">00</span>
+                    <span class="timeRefYears">ans,</span>
+                    <span class="jours">00</span>
+                    <span class="timeRefDays">jours,</span>
+                    <span class="heures">00</span>
+                    <span class="timeRefHours">heures,</span>
+                    <span class="minutes">00</span>
+                    <span class="timeRefMinutes">minutes,</span>
+                    <span class="secondes">00</span>
+                    <span class="timeRefSeconds">secondes</span>
+                </div>
                 <a rel="noopener" title="Github Malo" target="_blank" href="https://github.com/mal0andre"><svg
                         role="img" viewBox="0 0 496 512">
                         <title>GitHub</title>
@@ -81,6 +81,12 @@
                         <path
                             d="M23.954 4.569c-.885.389-1.83.654-2.825.775 1.014-.611 1.794-1.574 2.163-2.723-.951.555-2.005.959-3.127 1.184-.896-.959-2.173-1.559-3.591-1.559-2.717 0-4.92 2.203-4.92 4.917 0 .39.045.765.127 1.124C7.691 8.094 4.066 6.13 1.64 3.161c-.427.722-.666 1.561-.666 2.475 0 1.71.87 3.213 2.188 4.096-.807-.026-1.566-.248-2.228-.616v.061c0 2.385 1.693 4.374 3.946 4.827-.413.111-.849.171-1.296.171-.314 0-.615-.03-.916-.086.631 1.953 2.445 3.377 4.604 3.417-1.68 1.319-3.809 2.105-6.102 2.105-.39 0-.779-.023-1.17-.067 2.189 1.394 4.768 2.209 7.557 2.209 9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63.961-.689 1.8-1.56 2.46-2.548l-.047-.02z">
                         </path>
+                    </svg></a>
+                <a rel="noopener" title="Strava Malo" target="_blank"
+                    href="https://www.strava.com/athletes/34650839"><svg
+                        viewBox="0 0 384 512">
+                        <path
+                            d="M158.4 0L7 292h89.2l62.2-116.1L220.1 292h88.5zm150.2 292l-43.9 88.2-44.6-88.2h-67.6l112.2 220 111.5-220z" />
                     </svg></a>
                 <a rel="noopener" title="Insta Malo" target="_blank" href="https://instagram.com/mal0andre"><svg
                         role="img" viewBox="0 0 24 24">
@@ -103,186 +109,9 @@
                             d="M24 4.5v15c0 .85-.65 1.5-1.5 1.5H21V7.387l-9 6.463-9-6.463V21H1.5C.649 21 0 20.35 0 19.5v-15c0-.425.162-.8.431-1.068C.7 3.16 1.076 3 1.5 3H2l10 7.25L22 3h.5c.425 0 .8.162 1.069.432.27.268.431.643.431 1.068z">
                         </path>
                     </svg></a>
-
-                <div class="scroll" onclick="scrollClick()">
-                    <svg class="arrows">
-                        <path class="a1" d="M0 0 L30 32 L60 0"></path>
-                        <path class="a2" d="M0 20 L30 52 L60 20"></path>
-                        <path class="a3" d="M0 40 L30 72 L60 40"></path>
-                    </svg>
-                </div>
             </div>
 
-
-
-        </div>
-        <div id="apropos" class="deuxieme">
-            <h1>
-                Salut, Hey, Hallo !
-            </h1>
-            <p>
-                Je suis Malo André, franco-suisse <img alt="france" class="drapeau" src="./images/france.png">
-                <img alt="suisse" class="drapeau" src="./images/suisse.png">.<br>J'aime
-                programmer et je m'intéresse principalement à
-                cyber-sécurité.<br>
-                J'aime faire du sport, de la course à pied 🏃‍♂️, du parapente 🪂, du ski ⛷️, etc.<br>J'aime voyager ✈️,
-                découvrir des
-                pays et des cultures, j'ai visité l'Angleterre, l'Irlande, Canada, États-Unis, Allemagne, Italie,
-                Espagne.
-            </p>
-        </div>
-        <h1 id="portfolio" class="portfolio-title">Portfolio</h1>
-        <div class="troisieme">
-            <h2>Projets d'études</h2>
-            <div class="block">
-                <div class="container1">
-                    <img alt="illustration" src="./images/robot.jpg">
-                    <h3>Licence professionelle<br>Cyber-Sécurité</h3>
-                    <p>A la suite de mon BTS SNir, je souhaite intégrer une université pour poursuivre mes études et me
-                        spécialiser dans la
-                        cyber-sécurité.<br>
-                        Je souhaite me former aux méthodes et outils permettant de lutter contre la cybercriminalité,
-                        les failles des systèmes
-                        d'information et traiter les problèmes liés à la sécurité des systèmes numériques.</p>
-                </div>
-                <div class="container2">
-                    <img alt="illustration" src="./images/robot.jpg">
-                    <h3>Diplôme Universitaire<br>Cyber-Sécurité</h3>
-                    <p>Après la licence professionnelle, j'aimerais poursuivre avec un Diplôme Universitaire (DU)
-                        Cyber-sécurité proposé par l'<a
-                            href="https://formations-iuta.univ-smb.fr/fr/toute-l-offre-de-formation/diplome-d-universite-1/sciences-technologies-sante-STS/du-cyber-securite-KIACSJMF.html">IUT
-                            d'Annecy</a>.</p>
-                </div>
-                <!-- <div class="container3">
-                    <img alt="illustration" src="./images/">
-                    <h3>Titre</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet dolorum soluta magnam
-                        doloremque beatae debitis corporis qui molestiae vero totam, animi optio, consectetur id nobis
-                        modi iusto exercitationem error nulla!</p>
-                </div> -->
-            </div>
-        </div>
-        <div id="timeline" class="timeline-block">
-            <div class="center-line">
-                <svg href="*" class="scroll-icon" viewBox="0 0 384 512">
-                    <path
-                        d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z" />
-                </svg>
-            </div>
-            <div class="ligne ligne-1">
-                <section>
-                    <svg class="icon" viewBox="0 0 640 512">
-                        <path
-                            d="M320 32c-8.1 0-16.1 1.4-23.7 4.1L15.8 137.4C6.3 140.9 0 149.9 0 160s6.3 19.1 15.8 22.6l57.9 20.9C57.3 229.3 48 259.8 48 291.9v28.1c0 28.4-10.8 57.7-22.3 80.8c-6.5 13-13.9 25.8-22.5 37.6C0 442.7-.9 448.3 .9 453.4s6 8.9 11.2 10.2l64 16c4.2 1.1 8.7 .3 12.4-2s6.3-6.1 7.1-10.4c8.6-42.8 4.3-81.2-2.1-108.7C90.3 344.3 86 329.8 80 316.5V291.9c0-30.2 10.2-58.7 27.9-81.5c12.9-15.5 29.6-28 49.2-35.7l157-61.7c8.2-3.2 17.5 .8 20.7 9s-.8 17.5-9 20.7l-157 61.7c-12.4 4.9-23.3 12.4-32.2 21.6l159.6 57.6c7.6 2.7 15.6 4.1 23.7 4.1s16.1-1.4 23.7-4.1L624.2 182.6c9.5-3.4 15.8-12.5 15.8-22.6s-6.3-19.1-15.8-22.6L343.7 36.1C336.1 33.4 328.1 32 320 32zM128 408c0 35.3 86 72 192 72s192-36.7 192-72L496.7 262.6 354.5 314c-11.1 4-22.8 6-34.5 6s-23.5-2-34.5-6L143.3 262.6 128 408z" />
-                    </svg>
-                    <div class="details">
-                        <span class="title">BTS SN-ir</span>
-                        <span>2021-2023</span>
-                    </div>
-                    <p>Système Numérique option informatique et réseaux<br>Lycée Jules Haag - Besançon (25),
-                        France<br>Stage
-                        d'observation de la vie professionnelle de 6 semaines réalisé à l'INSPE de
-                        Besançon.</p>
-                    <div class="bottom">
-                        <a href="https://lyc-jhaag-besancon.eclat-bfc.fr/">Plus d'infos</a>
-                        <!-- <i>- Editeur</i> -->
-                    </div>
-                </section>
-            </div>
-            <div class="ligne ligne-2">
-                <section>
-                    <svg class="icon" viewBox="0 0 640 512">
-                        <path
-                            d="M337.8 5.4C327-1.8 313-1.8 302.2 5.4l-139 92.7L37.6 126C15.6 130.9 0 150.3 0 172.8V464c0 26.5 21.5 48 48 48H592c26.5 0 48-21.5 48-48V172.8c0-22.5-15.6-42-37.6-46.9L476.8 98.1 337.8 5.4zM256 416c0-35.3 28.7-64 64-64s64 28.7 64 64v96H256V416zM96 192h32c8.8 0 16 7.2 16 16v64c0 8.8-7.2 16-16 16H96c-8.8 0-16-7.2-16-16V208c0-8.8 7.2-16 16-16zm400 16c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v64c0 8.8-7.2 16-16 16H512c-8.8 0-16-7.2-16-16V208zM96 320h32c8.8 0 16 7.2 16 16v64c0 8.8-7.2 16-16 16H96c-8.8 0-16-7.2-16-16V336c0-8.8 7.2-16 16-16zm400 16c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v64c0 8.8-7.2 16-16 16H512c-8.8 0-16-7.2-16-16V336zM408 176c0 48.6-39.4 88-88 88s-88-39.4-88-88s39.4-88 88-88s88 39.4 88 88zm-88-48c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16s-7.2-16-16-16H336V144c0-8.8-7.2-16-16-16z" />
-                    </svg>
-                    <div class="details">
-                        <span class="title">Baccalauréat</span>
-                        <span>Juillet 2021</span>
-                    </div>
-                    <p>Spécialités Mathématique et Physique-Chimie.<br>Lycée Victor Considerant - Salins-les-Bains (39),
-                        France</p>
-                    <!-- <div class="bottom">
-                        <a href="#">Read more</a>
-                        <i>- Editeur</i>
-                    </div> -->
-                </section>
-            </div>
-            <!-- <div class="ligne ligne-1">
-                <section>
-                    <i class="icon fas fa-rocket"></i>
-                    <div class="details">
-                        <span class="title">Title of Section 3</span>
-                        <span>3rd Jan 2021</span>
-                    </div>
-                    <p>Lorem ipsum dolor sit ameters consectetur adipisicing elit. Sed qui veroes praesentium maiores,
-                        sint eos
-                        vero sapiente voluptas debitis dicta dolore.</p>
-                    <div class="bottom">
-                        <a href="#">Read more</a>
-                        <i>- Someone famous</i>
-                    </div>
-                </section>
-            </div>
-            <div class="ligne ligne-2">
-                <section>
-                    <i class="icon fas fa-globe"></i>
-                    <div class="details">
-                        <span class="title">Title of Section 4</span>
-                        <span>4th Jan 2021</span>
-                    </div>
-                    <p>Lorem ipsum dolor sit ameters consectetur adipisicing elit. Sed qui veroes praesentium maiores,
-                        sint eos
-                        vero sapiente voluptas debitis dicta dolore.</p>
-                    <div class="bottom">
-                        <a href="#">Read more</a>
-                        <i>- Someone famous</i>
-                    </div>
-                </section>
-            </div>
-            <div class="ligne ligne-1">
-                <section>
-                    <i class="icon fas fa-paper-plane"></i>
-                    <div class="details">
-                        <span class="title">Title of Section 5</span>
-                        <span>5th Jan 2021</span>
-                    </div>
-                    <p>Lorem ipsum dolor sit ameters consectetur adipisicing elit. Sed qui veroes praesentium maiores,
-                        sint eos
-                        vero sapiente voluptas debitis dicta dolore.</p>
-                    <div class="bottom">
-                        <a href="#">Read more</a>
-                        <i>- Someone famous</i>
-                    </div>
-                </section>
-            </div>
-            <div class="ligne ligne-2">
-                <section>
-                    <i class="icon fas fa-map-marker-alt"></i>
-                    <div class="details">
-                        <span class="title">Title of Section 6</span>
-                        <span>6th Jan 2021</span>
-                    </div>
-                    <p>Lorem ipsum dolor sit ameters consectetur adipisicing elit. Sed qui veroes praesentium maiores,
-                        sint eos
-                        vero sapiente voluptas debitis dicta dolore.</p>
-                    <div class="bottom">
-                        <a href="#">Read more</a>
-                        <i>- Someone famous</i>
-                    </div>
-                </section> -->
-        </div>
-        </div>
-    </main>
-
-    <footer class="footer">
-        <div>
-            <p>Fait avec ❤️ et 🍺 par Malo ANDRÉ.<br>© Malo 2023 | Tous droits réservés.<br><a
-                    href="./mentions-legales/">Mentions Légales</a></p>
-        </div>
-    </footer>
-
-    <script src="./js/index.js"></script>
-    <!-- <script src="./js/counter.js"></script> -->
+            <script src="./js/counter.js"></script>
 
 </body>
 
