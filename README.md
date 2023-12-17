@@ -2,7 +2,7 @@
 My name is Malo
 
 # 💫 About Me:
-📕 I'm currently studying<br>🔎 I'm looking for a tutor for a school<br>🖥️ I will try to work in the field of cybercrime
+📕 I'm currently studying<br>🔎 Just learning this year <br>🖥️ I will try to work in the field of cybercrime
 
 
 ## 🌐 Socials:
